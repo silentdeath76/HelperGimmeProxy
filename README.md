@@ -12,20 +12,20 @@ class GimmeProxy extends AbstractGimmeProxy
     }
 }
 
-(new GimmeProxy(1))->get(); // return json
+(new GimmeProxy())->get(); // return json
 ```
 
 Get one hundred proxy
 ```php
-(new GimmeProxy(1))->get(100);
+(new GimmeProxy())->get(100);
 ```
 
 Return object
 ```php
-(new GimmeProxy(1))->get(1, 'object');
+(new GimmeProxy())->get(1, 'object');
 ```
 
 Return array
 ```php
-(new GimmeProxy(1))->get(1, 'array');
+(new GimmeProxy())->get(1, 'array');
 ```
